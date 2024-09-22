@@ -29,14 +29,12 @@ let timer = () => {
 
 let stop = () => {
   if (timerCount) {
-    console.log("working");
     clearInterval(timerCount);
     timerCount = null;
   }
 };
 
 let reset = () => {
-  console.log("yesha");
   hours = 0;
   minutes = 0;
   seconds = 0;
