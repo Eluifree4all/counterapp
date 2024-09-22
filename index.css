@@ -1,0 +1,26 @@
+.button {
+  margin-left: 5px;
+  background-color: blue;
+  color: white;
+  height: 40px;
+  width: 90px;
+  border-radius: 10%;
+  border-color: beige;
+  font-size: medium;
+}
+
+#timer {
+  font-size: larger;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  /**margin-left: 100px;**/
+}
+
+.clock {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
